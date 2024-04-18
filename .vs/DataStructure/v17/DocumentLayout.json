@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DevelopCode\\DataStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C125DB-7583-43AB-9A91-2F73FF706C74}|SequenceTable\\SequenceTable.vcxproj|D:\\DevelopCode\\DataStructure\\SequenceTable\\SequenceTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47C125DB-7583-43AB-9A91-2F73FF706C74}|SequenceTable\\SequenceTable.vcxproj|solutionrelative:SequenceTable\\SequenceTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C125DB-7583-43AB-9A91-2F73FF706C74}|SequenceTable\\SequenceTable.vcxproj|D:\\DevelopCode\\DataStructure\\SequenceTable\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{47C125DB-7583-43AB-9A91-2F73FF706C74}|SequenceTable\\SequenceTable.vcxproj|solutionrelative:SequenceTable\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\main.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\main.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\main.cpp",
+              "RelativeToolTip": "LinkedList\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T15:34:26.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h",
+              "RelativeToolTip": "LinkedList\\LinkedList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T15:27:16.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp",
+              "RelativeToolTip": "LinkedList\\LinkedList.cpp",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAHUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T15:26:12.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\SequenceTable\\README.md",
+              "RelativeDocumentMoniker": "SequenceTable\\README.md",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\SequenceTable\\README.md",
+              "RelativeToolTip": "SequenceTable\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-18T15:06:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SequenceTable.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\SequenceTable\\SequenceTable.cpp",
+              "RelativeDocumentMoniker": "SequenceTable\\SequenceTable.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\SequenceTable\\SequenceTable.cpp",
+              "RelativeToolTip": "SequenceTable\\SequenceTable.cpp",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAWwKEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T13:45:58.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
