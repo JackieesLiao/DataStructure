@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "D:\\DevelopCode\\DataStructure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F58A7906-7500-4374-9AED-14DC7624E4C9}|Sorting\\Sorting.vcxproj|D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F58A7906-7500-4374-9AED-14DC7624E4C9}|Sorting\\Sorting.vcxproj|solutionrelative:Sorting\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C8CE15-0922-4C3A-96BF-1CD61E9D12BD}|Graph\\Graph.vcxproj|D:\\DevelopCode\\DataStructure\\Graph\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77C8CE15-0922-4C3A-96BF-1CD61E9D12BD}|Graph\\Graph.vcxproj|solutionrelative:Graph\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|solutionrelative:Trees\\treeStructre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|solutionrelative:Trees\\Trees.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A41FBD5-73AB-42F2-BF81-158AB6057E7A}|Stack\\Stack.vcxproj|D:\\DevelopCode\\DataStructure\\Stack\\sequence_stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A41FBD5-73AB-42F2-BF81-158AB6057E7A}|Stack\\Stack.vcxproj|solutionrelative:Stack\\sequence_stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|D:\\DevelopCode\\DataStructure\\strings\\StringMethod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|solutionrelative:strings\\StringMethod.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|D:\\DevelopCode\\DataStructure\\strings\\strings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|solutionrelative:strings\\strings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|D:\\DevelopCode\\DataStructure\\Trees\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|solutionrelative:Trees\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|D:\\DevelopCode\\DataStructure\\strings\\StringMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|solutionrelative:strings\\StringMethod.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|D:\\DevelopCode\\DataStructure\\strings\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|solutionrelative:strings\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|D:\\DevelopCode\\DataStructure\\strings\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F0FA95-B866-4BAA-8A86-47ECDB0B2447}|strings\\strings.vcxproj|solutionrelative:strings\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D4B9DF8-CBEE-4DBB-B583-6D9C4AF02F60}|Queue\\Queue.vcxproj|D:\\DevelopCode\\DataStructure\\Queue\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{7D4B9DF8-CBEE-4DBB-B583-6D9C4AF02F60}|Queue\\Queue.vcxproj|solutionrelative:Queue\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -45,6 +89,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A41FBD5-73AB-42F2-BF81-158AB6057E7A}|Stack\\Stack.vcxproj|D:\\DevelopCode\\DataStructure\\Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A41FBD5-73AB-42F2-BF81-158AB6057E7A}|Stack\\Stack.vcxproj|solutionrelative:Stack\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +101,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "time.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-12T11:19:21.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sorting.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp",
+              "RelativeDocumentMoniker": "Sorting\\Sorting.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp",
+              "RelativeToolTip": "Sorting\\Sorting.cpp",
+              "ViewState": "AQIAABIBAAAAAAAAAAAuwBwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-12T09:47:03.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Graph\\Graph.cpp",
+              "RelativeDocumentMoniker": "Graph\\Graph.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Graph\\Graph.cpp",
+              "RelativeToolTip": "Graph\\Graph.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-28T08:00:56.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Trees.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp",
+              "RelativeDocumentMoniker": "Trees\\Trees.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp",
+              "RelativeToolTip": "Trees\\Trees.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T07:49:21.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sequence_stack.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Stack\\sequence_stack.cpp",
+              "RelativeDocumentMoniker": "Stack\\sequence_stack.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Stack\\sequence_stack.cpp",
+              "RelativeToolTip": "Stack\\sequence_stack.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T15:05:16.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "treeStructre.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h",
+              "RelativeDocumentMoniker": "Trees\\treeStructre.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h",
+              "RelativeToolTip": "Trees\\treeStructre.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T14:42:19.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Trees\\README.md",
+              "RelativeDocumentMoniker": "Trees\\README.md",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Trees\\README.md",
+              "RelativeToolTip": "Trees\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-25T07:49:33.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Public.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\strings\\Public.h",
+              "RelativeDocumentMoniker": "strings\\Public.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\strings\\Public.h",
+              "RelativeToolTip": "strings\\Public.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T03:28:35.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StringMethod.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\strings\\StringMethod.cpp",
+              "RelativeDocumentMoniker": "strings\\StringMethod.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\strings\\StringMethod.cpp",
+              "RelativeToolTip": "strings\\StringMethod.cpp",
+              "ViewState": "AQIAAMAAAAAAAAAAAADwv94AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T03:26:42.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StringMethod.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\strings\\StringMethod.h",
+              "RelativeDocumentMoniker": "strings\\StringMethod.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\strings\\StringMethod.h",
+              "RelativeToolTip": "strings\\StringMethod.h",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAewBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T03:26:40.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\strings\\README.md",
+              "RelativeDocumentMoniker": "strings\\README.md",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\strings\\README.md",
+              "RelativeToolTip": "strings\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-25T03:06:18.214Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "strings.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\strings\\strings.cpp",
+              "RelativeDocumentMoniker": "strings\\strings.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\strings\\strings.cpp",
+              "RelativeToolTip": "strings\\strings.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAA0wEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T02:43:18.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "linkedlist_stack.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Stack\\linkedlist_stack.h",
               "RelativeDocumentMoniker": "Stack\\linkedlist_stack.h",
@@ -66,12 +256,11 @@
               "RelativeToolTip": "Stack\\linkedlist_stack.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T13:15:35.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:15:35.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "sequence_stack.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Stack\\sequence_stack.h",
               "RelativeDocumentMoniker": "Stack\\sequence_stack.h",
@@ -79,12 +268,11 @@
               "RelativeToolTip": "Stack\\sequence_stack.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T15:10:27.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T15:10:27.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "LinkedQueue.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\LinkedQueue.h",
               "RelativeDocumentMoniker": "Queue\\LinkedQueue.h",
@@ -92,12 +280,11 @@
               "RelativeToolTip": "Queue\\LinkedQueue.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T13:39:27.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:39:27.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "LinkedQueue.cpp",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\LinkedQueue.cpp",
               "RelativeDocumentMoniker": "Queue\\LinkedQueue.cpp",
@@ -105,12 +292,11 @@
               "RelativeToolTip": "Queue\\LinkedQueue.cpp",
               "ViewState": "AQIAACgAAAAAAAAAAAAYwDoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T13:39:06.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:39:06.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "SqQueue.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\SqQueue.h",
               "RelativeDocumentMoniker": "Queue\\SqQueue.h",
@@ -118,25 +304,23 @@
               "RelativeToolTip": "Queue\\SqQueue.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T13:38:57.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:38:57.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "README.md",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\README.md",
               "RelativeDocumentMoniker": "Queue\\README.md",
               "ToolTip": "D:\\DevelopCode\\DataStructure\\Queue\\README.md",
               "RelativeToolTip": "Queue\\README.md",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-19T13:26:52.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:26:52.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "SqQueue.cpp",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\SqQueue.cpp",
               "RelativeDocumentMoniker": "Queue\\SqQueue.cpp",
@@ -144,12 +328,11 @@
               "RelativeToolTip": "Queue\\SqQueue.cpp",
               "ViewState": "AQIAADEAAAAAAAAAAAAWwEQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T13:39:36.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:39:36.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Public.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\Public.h",
               "RelativeDocumentMoniker": "Queue\\Public.h",
@@ -157,12 +340,11 @@
               "RelativeToolTip": "Queue\\Public.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T13:39:38.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:39:38.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Queue.cpp",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Queue\\Queue.cpp",
               "RelativeDocumentMoniker": "Queue\\Queue.cpp",
@@ -170,12 +352,11 @@
               "RelativeToolTip": "Queue\\Queue.cpp",
               "ViewState": "AQIAACIAAAAAAAAAAAAvwC4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T13:26:32.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:26:32.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Stack.cpp",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Stack\\Stack.cpp",
               "RelativeDocumentMoniker": "Stack\\Stack.cpp",
@@ -183,12 +364,11 @@
               "RelativeToolTip": "Stack\\Stack.cpp",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAFQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-19T06:45:04.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T06:45:04.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "Public.h",
               "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Stack\\Public.h",
               "RelativeDocumentMoniker": "Stack\\Public.h",
@@ -196,8 +376,7 @@
               "RelativeToolTip": "Stack\\Public.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T13:09:08.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T13:09:08.381Z"
             }
           ]
         }
