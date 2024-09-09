@@ -1,10 +1,9 @@
 ﻿  Sorting.cpp
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(135,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(139,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(156,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(216,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(220,32): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(265,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  Sorting.vcxproj -> D:\DevelopCode\DataStructure\x64\Debug\Sorting.exe
-  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
-  或批处理文件。
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(134,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(138,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(155,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(221,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(225,32): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(271,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(300,13): error C3861: “asleep”: 找不到标识符
+D:\DevelopCode\DataStructure\Sorting\Sorting.cpp(307,13): error C3861: “awake”: 找不到标识符

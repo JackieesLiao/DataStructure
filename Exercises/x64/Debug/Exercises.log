@@ -1,0 +1,21 @@
+﻿  Exercises.cpp
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(85,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(110,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(110,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(137,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(139,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(166,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(168,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(190,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(213,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(214,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(216,31): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(216,18): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(232,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(233,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(234,48): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(234,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(613,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Exercises.vcxproj -> D:\DevelopCode\DataStructure\x64\Debug\Exercises.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

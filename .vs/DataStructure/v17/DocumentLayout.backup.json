@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DevelopCode\\DataStructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|D:\\DevelopCode\\DataStructure\\Exercises\\Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|solutionrelative:Exercises\\Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\VCRUNTIME.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\YVALS_CORE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\IOSTREAM||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|solutionrelative:Exercises\\QueueHeader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|solutionrelative:Exercises\\StackHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|solutionrelative:Exercises\\QueueHeader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|solutionrelative:Trees\\Trees.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEE9AC30-4C2E-4F1B-80EC-D8086C13BD77}|Trees\\Trees.vcxproj|solutionrelative:Trees\\treeStructre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A153887-20E2-412D-8AE9-517976BBD899}|Exercises\\Exercises.vcxproj|solutionrelative:Exercises\\StackHeader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\DoubleLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B2DB70A-BA04-45A9-8872-056F3011F108}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\DoubleLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F58A7906-7500-4374-9AED-14DC7624E4C9}|Sorting\\Sorting.vcxproj|D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F58A7906-7500-4374-9AED-14DC7624E4C9}|Sorting\\Sorting.vcxproj|solutionrelative:Sorting\\Sorting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\type_traits||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\format||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vcruntime.h",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vcruntime.h",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vcruntime.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-09T04:44:01.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yvals_core.h",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\yvals_core.h",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\yvals_core.h",
+              "ViewState": "AgIAAOwBAAAAAAAAAAAAAPYBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-09T04:43:16.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "iostream",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\iostream",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\iostream",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-09T04:43:13.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Trees.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp",
+              "RelativeDocumentMoniker": "Trees\\Trees.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Trees\\Trees.cpp",
+              "RelativeToolTip": "Trees\\Trees.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-09T02:11:45.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "treeStructre.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h",
+              "RelativeDocumentMoniker": "Trees\\treeStructre.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Trees\\treeStructre.h",
+              "RelativeToolTip": "Trees\\treeStructre.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-09T02:11:43.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.cpp",
+              "RelativeToolTip": "LinkedList\\LinkedList.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAIsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-08T13:23:43.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoubleLinkedList.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\DoubleLinkedList.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.cpp",
+              "RelativeToolTip": "LinkedList\\DoubleLinkedList.cpp",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAHkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-08T13:23:22.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Public.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\Public.h",
+              "RelativeDocumentMoniker": "LinkedList\\Public.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\Public.h",
+              "RelativeToolTip": "LinkedList\\Public.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-08T13:23:21.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedList.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\LinkedList.h",
+              "RelativeToolTip": "LinkedList\\LinkedList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-08T13:23:19.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoubleLinkedList.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.h",
+              "RelativeDocumentMoniker": "LinkedList\\DoubleLinkedList.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\LinkedList\\DoubleLinkedList.h",
+              "RelativeToolTip": "LinkedList\\DoubleLinkedList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-08T13:23:18.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Sorting.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp",
+              "RelativeDocumentMoniker": "Sorting\\Sorting.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Sorting\\Sorting.cpp",
+              "RelativeToolTip": "Sorting\\Sorting.cpp",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-08T02:44:02.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "type_traits",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\type_traits",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\type_traits",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-11T16:58:20.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "format",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\format",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\format",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-11T16:23:13.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StackHeader.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.h",
+              "RelativeDocumentMoniker": "Exercises\\StackHeader.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.h",
+              "RelativeToolTip": "Exercises\\StackHeader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-11T16:09:59.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueueHeader.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.cpp",
+              "RelativeDocumentMoniker": "Exercises\\QueueHeader.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.cpp",
+              "RelativeToolTip": "Exercises\\QueueHeader.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-11T17:57:54.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueueHeader.h",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.h",
+              "RelativeDocumentMoniker": "Exercises\\QueueHeader.h",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Exercises\\QueueHeader.h",
+              "RelativeToolTip": "Exercises\\QueueHeader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-11T17:57:06.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StackHeader.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.cpp",
+              "RelativeDocumentMoniker": "Exercises\\StackHeader.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Exercises\\StackHeader.cpp",
+              "RelativeToolTip": "Exercises\\StackHeader.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-11T16:12:29.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercises.cpp",
+              "DocumentMoniker": "D:\\DevelopCode\\DataStructure\\Exercises\\Exercises.cpp",
+              "RelativeDocumentMoniker": "Exercises\\Exercises.cpp",
+              "ToolTip": "D:\\DevelopCode\\DataStructure\\Exercises\\Exercises.cpp*",
+              "RelativeToolTip": "Exercises\\Exercises.cpp*",
+              "ViewState": "AgIAAIYDAAAAAAAAAAAlwKIDAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-11T16:09:41.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
