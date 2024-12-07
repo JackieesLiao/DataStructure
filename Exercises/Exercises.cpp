@@ -5,8 +5,14 @@
 #include "StackHeader.h"
 #include <algorithm>
 #include <climits>
+#include <cmath>
 #include <iostream>
+#include <queue>
+#include <stack>
 #include <stdio.h>
+#include <tuple>
+#include <unordered_set>
+#include <vector>
 static void TestSeqStackHeader()
 {
 	SequentialStack::Stack stack;
@@ -53,6 +59,7 @@ static void print(const T(&array)[N]) {
 }
 #if 1
 #include <vector>
+//模板
 namespace QuickSort {
 	static int Partition(std::vector<int>& array, int L, int R) {
 		int mid = array[L];
@@ -1039,8 +1046,684 @@ namespace Graph {
 	}
 
 }//namespace Graph
+namespace string {
+	//KMP算法
+	//1.计算next数组
+	/*
+	* j(0) i(1)
+	*  |     |
+	*  A     B A B C
+	*/
+	static std::vector<int> calNext(const std::string&pattern/*eg:ABABCABAB*/) {
+		int i = 1, j = 0;//j为最长公共前缀长度
+		int pattern_size = pattern.size();
+		std::vector<int> next(pattern_size, 0);//创建next数组
+		for (; i < pattern_size; i++) {
+			while (j > 0 && pattern[i] != pattern[j]) {
+				j = next[j - 1];
+			}
+			if (pattern[i] == pattern[j]) {
+				++j;
+			}
+			/*
+			* i = 1 ,j = 0 时,pattern[1] != pattern[0] next[1] = 0
+			* i = 2 ,j = 0 时,pattern[2] == pattern[0],j++,next[2] = 1 
+			* i = 3 ,j = 1 时,pattern[3] == pattern[1],j++,next[3] = 2 
+			* i = 4 ,j = 2 时,pattern[4] != pattern[2] j = next[2 - 1] = 0 ,next[4] = 0
+			* i = 5 ,j = 0 时,pattern[5] == pattern[0] ,j++,next[5] = 1
+			* i = 6 ,j = 1 时,pattern[6] == pattern[1] ,j++,next[6] = 2
+			* i = 7 ,j = 2 时,pattern[7] == pattern[2] ,j++,next[7] = 3
+			* i = 8 ,j = 3 时,pattern[8] == pattern[3] ,j++,next[7] = 4
+			*/
+			next[i] = j; 
+		}
+		return next;
+	}
+	//KMP Search函数
+	static std::vector<int> KMP_(const std::string& mainString/*eg:ABABDABACD*/, const std::string& pattern) {
+		std::vector<int> next = calNext(pattern);//next数组
+		std::vector<int> result;
+		int n = mainString.size();
+		int m = pattern.size();
+		int j = 0;//模式串指针
+		for (int i = 0; i < n; i++) {//遍历主串
+			while (j > 0 && mainString[i] != pattern[j]) {//主串与模式串失配后，模式串指针只需跳转到next数组中记录的可跳过匹配的字符个数的下一位
+				j = next[j - 1];
+			}
+			if (mainString[i] == pattern[j]) {
+				j++;
+			}
+			if (j == m) {
+				result.push_back(i - m + 1);
+				j = next[j - 1];
+			}
+		}
+		return result;
+	}
+	static void testKMP() {
+		std::string text = "ABABDABACDABABCABAB";
+		std::string pattern = "ABABCABAB";
+		std::vector<int> matches = KMP_(text, pattern);
+
+		std::cout << "Pattern found at indices: ";
+		for (auto& i : matches) {
+			std::cout << i << " ";
+		}
+		std::cout << std::endl;
+	}
+}//namespace string
+static int f1(unsigned n) {
+	for (unsigned i = 0; i <= n - 1; i++) {
+
+	}
+}
+static void datafloat() {
+	int m = 13;
+	float a = 12.6, x;
+	x = m / 2 + a / 2;
+	printf_s("%f\n", x);
+}
+static int call_count = 0;
+static int Facl(int n) {
+	call_count++;
+	if (n <= 3) {
+		return 1;
+	}
+	else return Facl(n - 2) + Facl(n - 4) + 1;
+}
+// 重置计数函数
+static void reset_count() {
+	call_count = 0;
+}
+namespace Tree {
+#include "TreeHeaderFile.h"
+	//01.后序遍历二叉树(递归)
+	template<typename ElemType>
+	static void postOrderTraversal1(BiTNode<ElemType>* root) {
+		if (root == nullptr) return;
+		postOrderTraversal1(root->lchild);
+		postOrderTraversal1(root->rchild);
+		std::cout << root->data << " ";
+	}
+	//01.后序遍历二叉树(非递归)
+	/*
+	*    1
+	*   / \
+	*  2   3
+	* / \ / \
+	* 4 5 6 7
+	* 后序遍历：4 5 2 6 7 3 1 
+	*/
+	template<typename ElemType>
+	static std::vector<ElemType> postOrderTraversal2(BiTNode<ElemType>* root) {
+		std::vector<ElemType> result;
+		if (!root) return result;
+		std::stack<BiTNode<ElemType>*> traversalStack;//遍历栈
+		std::stack<BiTNode<ElemType>*> outputStack;   //输出栈
+		traversalStack.push(root);
+		while (!traversalStack.empty()) {
+			BiTNode<ElemType>* node = traversalStack.top();
+			traversalStack.pop();
+			outputStack.push(node);
+			if (node->lchild) {
+				traversalStack.push(node->lchild);
+			}
+			if (node->rchild) {
+				traversalStack.push(node->rchild);
+			}
+		}
+		while (!outputStack.empty()) {
+			result.push_back(outputStack.top()->data);
+			outputStack.pop();
+		}
+		return result;
+	}
+	//创建一棵完全二叉树
+	template<typename ElemType>
+	static BiTNode<ElemType>* CreaBitNode() {
+		BiTNode<ElemType>* root = new BiTNode<ElemType>(1);
+		root->lchild = new BiTNode<ElemType>(2);
+		root->rchild = new BiTNode<ElemType>(3);
+		root->lchild->lchild = new BiTNode<ElemType>(4);
+		root->lchild->rchild = new BiTNode<ElemType>(5);
+		root->rchild->lchild = new BiTNode<ElemType>(6);
+		root->rchild->rchild = new BiTNode<ElemType>(7);
+		return root;
+	}
+	static void postOrder1() {
+		// 创建一个简单的二叉树
+		BiTNode<int>* root = CreaBitNode<int>();
+		std::cout << "后序遍历结果(递归): ";
+		postOrderTraversal1(root);
+		std::cout << std::endl;
+	}
+	static void postOrder2() {
+		// 创建一个简单的二叉树
+		BiTNode<int>* root = CreaBitNode<int>();
+		// 进行后序遍历
+		std::vector<int> result = postOrderTraversal2(root);
+		std::cout << "后序遍历结果(非递归): ";
+		for (int val : result) {
+			std::cout << val << " "; 
+		}
+		std::cout << std::endl;
+	}
+	//02.自下而上从右至左的层次遍历算法
+	template<typename ElemType>
+	std::vector<std::vector<ElemType>> levelOrderBottomRightToLeft(BiTNode<ElemType>* root) {
+		std::vector<std::vector<ElemType>> result;//存储遍历结果
+		if (!root) return result;
+		std::queue<BiTNode<ElemType>*> queueLevel;//用于层次遍历
+		queueLevel.push(root);
+		while (!queueLevel.empty()) {
+			std::vector<ElemType> curNodeData;   //存放本层数据
+			int curLevelSize = queueLevel.size();//统计本层结点个数
+			for (auto i = 0; i < curLevelSize; i++) {
+				BiTNode<ElemType>* curNode = queueLevel.front();
+				queueLevel.pop();
+				curNodeData.push_back(curNode->data);
+				if (curNode->rchild) {//先添加右子树
+					queueLevel.push(curNode->rchild);
+				}
+				if (curNode->lchild) {//再添加左子树
+					queueLevel.push(curNode->lchild);
+				}
+			}
+			result.insert(result.begin(), curNodeData);//将结果插入到前面以实现自下而上
+		}
+		return result;
+	}
+	static void levelOrderTest() {
+		BiTNode<int>* root = CreaBitNode<int>();
+		std::vector<std::vector<int>> result = levelOrderBottomRightToLeft<int>(root);
+		std::cout << "自下而上从右至左的层次遍历结果: " << std::endl;
+		for (const auto& level:result) {
+			for (auto data : level) {
+				std::cout << data << " ";
+			}
+		}
+		std::cout << std::endl;
+	}
+	//并查集
+	class UnionFind {
+	public:
+		
+	private:
+		std::vector<int> parent;
+		std::vector<int> rank;//用于按秩合并
+	};
+}//namespace Tree
+namespace F408{
+	namespace FEx10 {
+		static void reverse(std::vector<int>& a, int start, int end) {
+			//双指针扫描
+			for (int i = start, j = end; i < j; i++, j--) {
+				int temp = a[i];
+				a[i] = a[j];
+				a[j] = temp;
+			}
+		}
+		static void traversal(std::vector<int>& a, int p, int n) {
+			reverse(a, 0, p - 1);
+			reverse(a, p, n - 1);
+			reverse(a, 0, n - 1);
+		}
+		static void testtraversal() {
+			std::vector<int> a;
+			for (int i = 0; i < 10; i++) {
+				if (i % 2 == 0) {
+					a.push_back(i + 1);
+				}
+				else
+				{
+					a.push_back(i - 1);
+				}
+			}
+			for (const auto& b : a) {
+				std::cout << b << " ";
+			}
+			std::cout << std::endl;
+			traversal(a, a.size() / 2, a.size());
+			for (const auto& b : a) {
+				std::cout << b << " ";
+			}
+			std::cout << std::endl;
+		}
+	}//FEx10
+	namespace FEx12 {
+		struct Node
+		{
+			char a;
+			struct Node* next;
+		};
+		// 计算链表的长度
+		size_t getLength(Node* head) {
+			size_t length = 0;
+			while (head != nullptr) {
+				length++;
+				head = head->next;
+			}
+			return length;
+		}
+		static Node* common(Node* a/*str1*/, Node* b/*str2*/) {
+			size_t lena = getLength(a);
+			size_t lenb = getLength(b);
+			Node* p = a;
+			Node* q = b;
+			// 让较长的链表先走，直到两个链表长度相等
+			while (lena > lenb) {//When lena is equal to lena ,break while
+				p = p->next;
+				lena--;
+			}
+			while (lena < lenb) {//When lena is equal to lena ,break while
+				q = q->next;
+				lenb--;
+			}
+			// 同时遍历两个链表，直到找到公共后缀
+			while (p != nullptr && q != nullptr && p != q) {
+				p = p->next;
+				q = q->next;
+			}
+            // 返回公共后缀的起始位置
+			return p;
+		}
+		static void testcommon() {
+			// 创建链表
+			 // 创建公共后缀 "ing"
+			Node commonNode3 = { 'g', nullptr };
+			Node commonNode2 = { 'n', &commonNode3 };
+			Node commonNode1 = { 'i', &commonNode2 };
+
+			// 创建链表 "loading"
+			Node listA4 = { 'd', &commonNode1 };
+			Node listA3 = { 'a', &listA4 };
+			Node listA2 = { 'o', &listA3 };
+			Node listA1 = { 'l', &listA2 };
+
+			// 创建链表 "being"
+			Node listB2 = { 'e', &commonNode1 };
+			Node listB1 = { 'b', &listB2 };
+
+			// 测试查找公共后缀
+			Node* result = common(&listA1, &listB1);
+
+			if (result != nullptr) {
+				std::cout << "Common suffix starts at node with char: " << result->a << std::endl;
+			}
+			else {
+				std::cout << "No common suffix found." << std::endl;
+			}
+		}
+	}//FEx12
+	namespace FEx13 {
+		/*
+		* 时间复杂度为O(n)
+		* 空间复杂度为O(1)
+		*/
+		static int findMainElem(std::vector<int>& A, int n) {
+			std::vector<int> count(n);
+			for (int i = 0; i < n; i++) {
+				count[A[i]]++;
+			}
+			for (int i = 0; i < n; i++) {
+				if (count[i] > n / 2) {
+					return i;//i即为主元素
+				}
+			}
+			return -1;
+		}
+		static void testfindMainElem() {
+			std::vector<int> A{ 0,5,5,3,5,7,5,5 };
+			std::cout << "主元素为：" << findMainElem(A, A.size()) << std::endl;
+			std::vector<int> B{ 0,5,5,3,5,1,5,7 };
+			std::cout << "主元素为：" << findMainElem(B, B.size()) << std::endl;
+		}
+	}//namespace FEx13 
+	namespace FEx15 {
+		struct LinkNode
+		{
+			int data;
+			struct LinkNode* next;
+		};
+		static LinkNode* deleteed(LinkNode* head) {
+			if (head == nullptr || head->next == nullptr) {
+				return head;
+			}
+			std::unordered_set<int> visited;
+			LinkNode* prev = head;      //指向头结点
+			LinkNode* curr = head->next;//指向第一个实际结点
+			while (curr != nullptr) {
+				int absdata = std::abs(curr->data);
+				if (visited.find(absdata) != visited.end()) {
+					prev->next = curr->next;//跳过当前结点
+				}
+				else {
+					visited.insert(absdata);//值第一次出现则插入set集合
+					prev = curr;            //继续遍历
+				}
+				curr = prev->next;
+			}
+			return head;
+		}
+		static void printList(LinkNode* head) {
+			LinkNode* curr = head->next; // 跳过头节点
+			while (curr != nullptr) {
+				std::cout << curr->data << " ";
+				curr = curr->next;
+			}
+			std::cout << std::endl;
+		}
+		static void test() {
+			// 创建一个带头节点的链表
+			LinkNode* head = new LinkNode{ 0, nullptr }; // 头节点，数据域为 0 但不会用到
+			LinkNode* node1 = new LinkNode{ 21, nullptr };
+			LinkNode* node2 = new LinkNode{ -15, nullptr };
+			LinkNode* node3 = new LinkNode{ -15, nullptr };
+			LinkNode* node4 = new LinkNode{ -7, nullptr };
+			LinkNode* node5 = new LinkNode{ 15, nullptr };
+
+			head->next = node1;
+			node1->next = node2;
+			node2->next = node3;
+			node3->next = node4;
+			node4->next = node5;
+			LinkNode* result = deleteed(head);
+			printList(result);
+		}
+	}//namespace FEx15 
+	namespace FEX16 {
+
+	}//namespace FEx16
+	//2019
+	namespace FEx19 {
+		/*
+		* 设线性表L=(a1,a2,a3,...,an-2,an-1,an)采用带头节点的单链表保存，链表中的结点定义如下：
+          typedef struct node{
+            int data;
+            struct node*next;
+          }Node;
+          设计一个空间复杂度为O(1)且时间上尽可能高效的算法，
+		  重新排列L中各节点，得到线性表L1=（a1,an,a2,an-1,a3,an-2...）
+          1)给出算法的基本设计思想
+          2)使用C++描述算法，给出注释
+          3)说明时间复杂度
+		*/
+		typedef struct Node {
+			int data;
+			struct Node* next;
+		};
+		static void rearrangeList(Node* head) {
+			if (!head || !head->next || !head->next->next) {
+				return; // 如果链表为空、只有一个元素或两个元素，直接返回
+			}
+
+			// 找到链表的尾节点
+			Node* tail = head;
+			while (tail->next) {
+				tail = tail->next;
+			}
+
+			// 使用双指针重新排列节点
+			Node* current = head->next; // current指向第一个有效元素
+			while (current != tail && current->next != tail) {
+				// 保存当前节点的下一个节点
+				Node* nextNode = current->next;
+
+				// 断开尾节点和倒数第二个节点之间的链接
+				tail->next = current->next;
+				current->next = nullptr;  // current节点指向null，避免环路
+
+				// 将 current 插入到尾节点后面
+				tail->next->next = nextNode;
+
+				// 移动 current 和 tail
+				current = nextNode;
+				tail = tail->next;
+			}
+		}
+	}
+	//2020
+	namespace FEx20 {
+		//计算当前最小距离
+		static int calculateDistance(int a, int b, int c) {
+			return std::abs(a - b) + std::abs(b - c) + std::abs(c - a);
+		}
+		static std::tuple<int, int, int> findMinimumDistance(const std::vector<int>& S1, const std::vector<int>& S2, const std::vector<int>& S3) {
+			int i{ 0 }, j{ 0 }, k{ 0 };//三个指针分别指向三个数组的首位置
+			int minDistance = INT_MAX;
+			int min_a = S1[0], min_b = S2[0], min_c = S3[0];
+			while (i < S1.size() && j < S2.size() && k < S3.size()) {
+				int a = S1[i];
+				int b = S2[j];
+				int c = S3[k];
+				//计算当前三元组的距离
+				int curDistance = calculateDistance(a, b, c);
+				//如果比之前记录的最小距离更小，则更新最小距离和当前三元组。
+				if (curDistance < minDistance) {
+					min_a = a;
+					min_b = b;
+					min_c = c;
+					minDistance = curDistance;
+				}
+				//比较当前三元组中S1[i],S2[j],S3[k]的最小值，将最小值的指针向前移动异步，以便进一步缩小距离
+				if (a <= b && a <= c) {
+					i++;
+				}
+				else if (b <= a && b <= c) {
+					j++;
+				}
+				else {
+					k++;
+				}
+			}
+			return { min_a,min_b,min_c };
+		}
+		static void testTupleMinelem() {
+			std::vector<int> S1 = { -1, 0, 9 };
+			std::vector<int> S2 = { -25, -10, 10, 11 };
+			std::vector<int> S3 = { 2, 9, 17, 30, 41 };
+
+			auto [a, b, c] = findMinimumDistance(S1, S2, S3);
+			int minDistance = calculateDistance(a, b, c);
+
+			std::cout << "最小距离: " << minDistance << std::endl;
+			std::cout << "对应的三元组: {" << a << ", " << b << ", " << c << "}" << std::endl;
+		}
+	}//namespace FEx20
+}//F408
+namespace Sorting {
+	void printArray(const std::vector<int>& arr);
+	//1.直接插入排序
+	static void DirectInsertion(std::vector<int>& arr) {
+		int n = arr.size();
+		for (int i = 1; i < n; i++) {
+			int key = arr[i];//保存当前下标元素
+			int j = i - 1;
+			while (j >= 0 && arr[j] > key) {//如果已排序序列大于当前元素
+				arr[j + 1] = arr[j];
+				j--;
+			}
+			arr[j + 1] = key;//插入key
+ 		}
+	}
+	static void testDirectInsertion() {
+		std::vector<int> arr = { 12, 11, 13, 5, 6 };
+		std::cout << "排序前的数组: ";
+		printArray(arr);
+		DirectInsertion(arr);
+		std::cout << "排序后的数组: ";
+		printArray(arr);
+	}
+	//2.选择排序
+	
+	// 打印数组
+	static void printArray(const std::vector<int>& arr) {
+		for (int num : arr) {
+			std::cout << num << " ";
+		}
+		std::cout << std::endl;
+	}
+}//namespace Sorting
+static void testnamespaceSorting() {
+	Sorting::testDirectInsertion();
+}
+//链表
+namespace LinkedNode {
+	//using namespace std;
+	struct LNode
+	{
+		int data;
+		struct LNode* next; 
+	};
+	//1.判断是否有环
+	static LNode* findCycle(LNode* head) {
+		if (head == nullptr) return nullptr;
+		LNode* slow = head;
+		LNode* fast = head;
+		while (fast && fast->next) {
+			slow = slow->next;//慢指针走一步
+			fast = fast->next->next;
+			if (fast == slow) break;//找到相遇点
+		}
+		// 如果无环，返回 nullptr
+		if (!fast || !fast->next) return nullptr;
+		slow = head;//慢指针回到原点
+		while (fast != slow) {
+			slow = slow->next;
+			fast = fast->next;//快指针只走一步
+		}//fast=slow
+		return fast;
+	}
+#if 1
+	// 辅助函数：创建无环链表
+	static LNode* createList(const std::vector<int>& values) {
+		if (values.empty()) return nullptr;
+
+		LNode* head = new LNode(values[0]);
+		LNode* current = head;
+
+		for (size_t i = 1; i < values.size(); ++i) {
+			current->next = new LNode(values[i]);
+			current = current->next;
+		}
+		return head;
+	}
+
+	// 辅助函数：创建有环链表
+	static LNode* createCycleList(const std::vector<int>& values, int pos) {
+		if (values.empty()) return nullptr;
+
+		LNode* head = new LNode(values[0]);
+		LNode* current = head;
+		LNode* cycleNode = nullptr;
+
+		for (size_t i = 1; i < values.size(); ++i) {
+			current->next = new LNode(values[i]);
+			current = current->next;
+			if (static_cast<int>(i) == pos) {
+				cycleNode = current;
+			}
+		}
+		// 形成环
+		if (cycleNode) {
+			current->next = cycleNode;
+		}
+
+		return head;
+	}
+
+	// 辅助函数：释放链表内存
+	static void freeList(LNode* head) {
+		if (!head) return;
+
+		std::unordered_set<LNode*> visited; // 避免死循环（有环）
+		while (head && visited.find(head) == visited.end()) {
+			visited.insert(head);
+			LNode* temp = head;
+			head = head->next;
+			delete temp;
+		}
+	}
+
+	// 测试函数
+	static void testFindCycle() {
+		std::cout << "测试用例 1：无环链表" << std::endl;
+		LNode* list1 = createList({ 1, 2, 3, 4, 5 });
+		LNode* result1 = findCycle(list1);
+		std::cout << "结果: " << (result1 ? "有环，入口点值：" + (result1->data) : "无环") << std::endl;
+		freeList(list1);
+
+		std::cout << "测试用例 2：有环链表，环从第 2 个节点开始" << std::endl;
+		LNode* list2 = createCycleList({ 1, 2, 3, 4, 5 }, 1); // 环入口在值为 2 的节点
+		LNode* result2 = findCycle(list2);
+		std::cout << "结果: " << (result2 ? "有环，入口点值：" + (result2->data) : "无环") << std::endl;
+		freeList(list2);
+
+		std::cout << "测试用例 3：有环链表，环从第 4 个节点开始" << std::endl;
+		LNode* list3 = createCycleList({ 1, 2, 3, 4, 5 }, 3); // 环入口在值为 4 的节点
+		LNode* result3 = findCycle(list3);
+		std::cout << "结果: " << (result3 ? "有环，入口点值：" + (result3->data) : "无环") << std::endl;
+		freeList(list3);
+
+		std::cout << "测试用例 4：空链表" << std::endl;
+		LNode* list4 = nullptr;
+		LNode* result4 = findCycle(list4);
+		std::cout << "结果: " << (result4 ? "有环，入口点值：" + (result4->data) : "无环") << std::endl;
+	}
+#endif
+	//2.删除链表中所有值为 x 的节点
+	static void deleteNodesWithValue(LNode* head, int x) {
+		if (!head) return;
+		LNode* prev = head, * curr = head->next;//prev指向头结点，curr指向第一个实际结点
+		while (curr) {
+			if (curr->data == x) {      //找到要删除的结点
+				prev->next = curr->next;//保存要删除的结点的下一个结点，即断开连接
+				delete curr;            //物理删除当前结点
+				curr = prev->next;      //更新当前结点
+			}
+			else {                      //不是要删除的结点
+				prev = curr;            //更新前驱结点
+				curr = curr->next;      //更新当前结点
+			}
+		}
+	}
+	static void printList(LNode* head) {
+		LNode* current = head->next;    // 跳过头节点
+		while (current) {
+			std::cout << current->data << " -> ";
+			current = current->next;
+		}
+		std::cout << "NULL" << std::endl;
+	}
+
+	static void testdeleteNode() {
+		LNode* head = new LNode(0); // 头节点（不存储数据）
+		head->next = new LNode(1);
+		head->next->next = new LNode(2);
+		head->next->next->next = new LNode(1);
+		head->next->next->next->next = new LNode(3);
+
+		std::cout << "Original List: ";
+		printList(head);
+
+		// 删除所有值为 1 的节点
+		deleteNodesWithValue(head, 1);
+
+		std::cout << "After Deleting 1s: ";
+		printList(head);
+
+		// 释放链表内存
+		LNode* current = head;
+		while (current) {
+			LNode* temp = current;
+			current = current->next;
+			delete temp;
+		}
+	}
+}
 int main()
 {
+#if 0
 #if 0
 	TestSeqStackHeader();
 	TestLinkedStackHeader();
@@ -1064,13 +1747,36 @@ int main()
 	BinaryTree::TestTree();
 	BinaryTree::testisBSTTree();
 #endif
-#if 1
+#if 0
 	Graph::testMGraph();
 	Graph::testDegree();
 	Graph::testIsExistEL();
 	Graph::testprintVertices();
 	Graph::testInOutDegrees();
+	string::testKMP();
+	datafloat();
 #endif
+	reset_count();
+	int result = Facl(8);
+	std::cout << "Result: " << result << ", Call Count: " << call_count << std::endl;
+#endif
+#if 0
+	Tree::postOrder1();
+	Tree::postOrder2();
+	Tree::levelOrderTest();
+#endif
+	//F408::FEx10::testtraversal();
+	//F408::FEx12::testcommon();
+	//F408::FEx13::testfindMainElem();
+	//F408::FEx15::test();
+	//F408::FEx20::testTupleMinelem();
+	//testnamespaceSorting();
+	unsigned short x = 65530;
+	unsigned int y = x;
+	std::cout << std::hex << x <<" "  <<  y << std::endl;
+	//LinkedNode::testFindCycle();
+	LinkedNode::testdeleteNode();
 	return 0;
+	
 }
 

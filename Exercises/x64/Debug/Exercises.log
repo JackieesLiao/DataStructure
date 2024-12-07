@@ -1,21 +1,37 @@
 ﻿  Exercises.cpp
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(85,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(110,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(110,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(137,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(139,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(166,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(168,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(190,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(213,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(214,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(216,31): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(216,18): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(232,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(233,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(234,48): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(234,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(613,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(92,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(117,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(117,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(144,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(146,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(173,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(175,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(197,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(220,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(221,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(223,31): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(223,18): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(239,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(240,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(241,48): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(241,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(620,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1059,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1086,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1087,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1122,10): warning C4305: “初始化”: 从“double”到“float”截断
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1286,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1286,26): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1377,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1379,60): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1451,18): warning C4091: “typedef ”: 没有声明变量时忽略“F408::FEx19::Node”的左侧
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1538,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1220,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+      D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1220,21):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\DevelopCode\DataStructure\Exercises\Exercises.cpp(1238,42):
+          查看对正在编译的函数 模板 实例化“std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> Tree::levelOrderBottomRightToLeft<int>(Tree::BiTNode<int> *)”的引用
+  
   Exercises.vcxproj -> D:\DevelopCode\DataStructure\x64\Debug\Exercises.exe
   'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
   或批处理文件。
